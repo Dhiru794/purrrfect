@@ -5,7 +5,7 @@
 
 
 .left-move{
-    text-align: left !important;
+    text-align: left;
 }
   
   @media (max-width: 768px) {
