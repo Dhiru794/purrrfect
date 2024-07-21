@@ -11,12 +11,12 @@ function Login() {
             <h3 className="text-center mb-4">Login</h3>
             <Form>
               <Form.Group controlId="formBasicEmail">
-                <Form.Label className="text-left">Email address</Form.Label>
+                <div className="left-move"><Form.Label >Email address</Form.Label></div>
                 <Form.Control type="email" placeholder="Enter email" />
               </Form.Group>
 
               <Form.Group controlId="formBasicPassword" className="mt-3">
-                <Form.Label>Password</Form.Label>
+                <div className="left-move"><Form.Label>Password</Form.Label></div>
                 <Form.Control type="password" placeholder="Password" />
               </Form.Group>
 
