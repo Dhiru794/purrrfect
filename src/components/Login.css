@@ -1,0 +1,16 @@
+.login-card {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+.left-move{
+    text-align: left !important;
+}
+  
+  @media (max-width: 768px) {
+    .login-card {
+      padding: 2rem;
+    }
+  }
+  
